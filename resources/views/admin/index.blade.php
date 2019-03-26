@@ -4,7 +4,9 @@
 
 <div class="row">
     <div class="col-md-2">
-        
+        @component('admin.layouts.menus.sidebar')
+
+        @endcomponent
     </div>
     <div class="col-md-10">
         {{-- Leader Board and HUD --}}
